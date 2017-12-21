@@ -26,15 +26,29 @@
           <input type="text" id="address" class="form-control" />
         </div>
         <div class="form-group col-md-6">
-          <label for="phoneNumber">Phone Number</label>
-          <input type="text" id="phoneNumber" class="form-control" />
+          <label for="emailAddress">Email Address</label>
+          <input type="email" id="emailAddress" class="form-control" />
         </div>
       </div>
 
       <div class="row">
-        <div class="form-group col-md-6 col-md-offset-2">
-          <label for="emailAddress">Email Address</label>
-          <input type="email" id="emailAddress" class="form-control" />
+        <div class="form-group col-md-2">
+          <label for="type">Type of number</label>
+          <select class="form-control">
+            <option>
+              Mobile
+            </option>
+            <option>
+              Home
+            </option>
+            <option>
+              Office
+            </option>
+          </select>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="phoneNumber">Phone Number</label>
+          <input type="text" id="phoneNumber" class="form-control" />
         </div>
         <div id="submitBtn" class="form-group col-md-1">
           <button type="submit" class="btn btn-danger">Save Contact</button>
