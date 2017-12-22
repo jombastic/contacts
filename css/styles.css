@@ -7,6 +7,10 @@
   padding: 10px;
 }
 
+.contactEntry:hover {
+  cursor: pointer;
+}
+
 .contactName {
   padding-left: 20px;
 }
