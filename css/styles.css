@@ -76,10 +76,12 @@
     color: white;
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body {
+  font-weight: bold;
+}
 
 .modal-footer {
-    padding: 2px 16px;
+    padding: 10px 16px;
     background-color: #5cb85c;
     color: white;
 }
