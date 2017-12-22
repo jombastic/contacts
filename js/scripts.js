@@ -9,8 +9,8 @@ $(function() {
     var numberType = $("#numberType").val();
     var phoneNumber = $("#phoneNumber").val();
 
-    var tableElements = $("#contacts").find("tr").length;
+    var rowNumber = $("#contactList").find("div.contactEntry").length;
 
-    $("#contactList").find("tbody").append("<tr><th>" + tableElements + "</th><th class='contactName'>" + name + " " + surname + "</th></tr>");
+    $("#contactList").append("<div class='contactEntry'><strong>#" + rowNumber + "<span class='contactName'> " + name + " " + surname + "</span></strong><div class='hidden-data'><p class='address'" + address + "</p><p class='emailAddress'>" + emailAddress + "</p><p class='numberType'>" + numberType + "</p><p class='phoneNumber'>" + phoneNumber + "<p></div>");
   });
 });
